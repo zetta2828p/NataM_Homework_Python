@@ -13,6 +13,6 @@ def month_to_season():
 
 try:
     month: int = int(input("Введите номер месяца (1-12): "))
-    print(month_to_season(month))
+    print(month_to_season())
 except ValueError:
     print("Пожалуйста, введите целое число от 1 до 12.")
