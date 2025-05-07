@@ -4,8 +4,8 @@ import math
 def square(side):
     area = side * side
 
-    if not isinstance(side, int) or isinstance(side, float):  # Проверяем, является ли сторона целым числом
-        area = math.ceil(area)  # Округляем вверх, если число не целое
+    if not isinstance(side, int):
+        area = math.ceil(area)
 
     return area
 

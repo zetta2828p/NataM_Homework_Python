@@ -1,9 +1,8 @@
 # Високосный год - True, невисокосный - False
-num = ()
-
 def is_year_leap (number):
-    return "True" if number % 4 == 0 else "False"
+    return True if number % 4 == 0 else False
 
-num = int(input("Введите год: "))
-result = is_year_leap (num)
-print(f"{result}")
+
+num = int(input('Введите год: '))
+result = is_year_leap(num)
+print(f'год {num}: {result}')
