@@ -1,4 +1,4 @@
-# Високосный год - True, невисокосный - False
+#високосный год - True, невисокосный - False
 def is_year_leap (number):
     return True if number % 4 == 0 else False
 
